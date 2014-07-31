@@ -1,7 +1,7 @@
 Scene
 =====
 
-CoffeeScript user interface framework inspired by [space-pen](http://atom.github.io/space-pen/).
+Scene is a CoffeeScript user interface framework inspired by [space-pen](http://atom.github.io/space-pen/).
 
 Builder
 -------
