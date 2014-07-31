@@ -125,7 +125,13 @@
     };
 
     ViewBuilder.prototype.subview = function(name, sv) {
-      this.view[name] = sv;
+      if (sv == null) {
+        sv = name;
+        name = null;
+      }
+      if (name != null) {
+        this.view[name] = sv;
+      }
       this.view.subviews.push(sv);
       sv.parent = this.view;
       return this.add(sv.base);
