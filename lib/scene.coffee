@@ -141,4 +141,8 @@ class View
     @inDocument = no
     sv.tryExit() for sv in @subviews
 
-module.exports = {$$, View, Builder}
+exports = {$$, View, Builder}
+if module?
+  module.exports = exports
+else
+  @scene = exports
