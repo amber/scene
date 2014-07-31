@@ -1,4 +1,4 @@
-snake = (s) -> s.replace /[A-Z]/g, (x) -> "_#{x.toLowerCase()}"
+snake = (s) -> s.replace /[A-Z]/g, (x) -> "-#{x.toLowerCase()}"
 
 class Builder
   events = "blur change click dblclick error focus input keydown keypress keyup load mousedown mousemove mouseout mouseover mouseup resize scroll select submit unload".split " "
