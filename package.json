@@ -1,0 +1,19 @@
+{
+  "name": "scene",
+  "version": "0.1.0",
+  "description": "CoffeeScript user interface framework inspired by space-pen.",
+  "main": "dist/scene.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amber/scene"
+  },
+  "author": "Nathan Dinsmore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amber/scene/issues"
+  },
+  "homepage": "https://github.com/amber/scene"
+}
