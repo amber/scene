@@ -137,6 +137,7 @@ class View
     @inDocument = yes
     @enter?()
     sv.tryEnter() for sv in @subviews
+    @afterEnter?()
 
   tryExit: ->
     return unless @inDocument
