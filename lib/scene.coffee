@@ -79,6 +79,11 @@ class View
     @base = b.base.firstChild
     @initialize? args...
 
+  build: (fn) ->
+    b = new ViewBuilder @
+    fn.call b
+    b.base
+
   @content: -> @div()
 
   inDocument: no
