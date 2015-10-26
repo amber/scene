@@ -110,6 +110,7 @@ class View
     sv.tryDocument()
 
   embed: (mount) ->
+    @removeFromParent()
     mount.appendChild @base
     @tryDocument()
     @
